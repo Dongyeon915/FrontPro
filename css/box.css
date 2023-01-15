@@ -50,13 +50,13 @@ body {
   height: 100px;
   overflow: auto;
 }
-
+/*자손*/
 .box-model-03 .box-01 {
   background-color: yellow;
   width: 1000px;
   height: 50px;
 }
-
+/*자식*/
 .box-model-03 > h3 {
   text-indent: 20px;
   width: 100px;
