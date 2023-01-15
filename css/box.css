@@ -1,0 +1,64 @@
+* {
+  font-family: 'Dancing Script', cursive;
+}
+
+body {
+  height: 2000px;
+  background-image: url("../images/main.webp");
+  background-attachment: fixed;
+}
+
+.box-model-01 {
+  background-color: orange;
+}
+
+.box-model-01 > .box-01 {
+  height: 100px;
+  max-width: 1000px;
+  background-color: #0a58ca;
+  margin: auto auto;
+}
+
+.box-model-01 > .box-01 > .logo{
+  background-image: url("https://www.hollys.co.kr/websrc/images/layout/logo_210302.gif");
+  width: 100px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.box-model-02 > .box-01 {
+  width: 100px;
+  height: 100px;
+  background-color: #0b5ed7;
+  padding: 50px;
+}
+
+.box-model-02 > .box-02 {
+  box-sizing: border-box;
+  border: 10px dotted black;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  padding: 50px;
+}
+
+.box-model-03 {
+  background-color: #0dcaf0;
+  width: 200px;
+  height: 100px;
+  overflow: auto;
+}
+
+.box-model-03 .box-01 {
+  background-color: yellow;
+  width: 1000px;
+  height: 50px;
+}
+
+.box-model-03 > h3 {
+  text-indent: 20px;
+  width: 100px;
+  height: 100px;
+}

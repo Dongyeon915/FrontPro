@@ -1,0 +1,141 @@
+#search{
+  width: 100%;
+  padding: 10px 20px;
+  margin: 5px 0;
+  <!-- 테두리 기준으로 설정 -->
+  box-sizing: border-box;
+}
+
+#search:focus{}
+
+.littleIcon {
+  margin-top: 5px;
+  background-color: red;
+}
+
+.idol {
+  margin-top: 10px;
+  margin-left: 15px;
+  display: inline-block;
+  width: 300px;
+  border-width: 3px;
+  color: #fbcbff;
+  border-style: solid;
+  border-radius: 10px;
+  background-image: url("https://img.freepik.com/premium-photo/simple-white-background-with-smooth-lines-in-light-colors_476363-5220.jpg");
+}
+
+.idol:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+.idol #main {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+
+
+#icon {
+  width: 30px;
+  height: 35px;
+  border-radius: 30px;
+}
+
+#playA {
+  /*background-/color: #0f5132;*/
+  text-decoration: none;
+  color: black;
+}
+
+#user {
+  /*background-color: #0a53be;*/
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  margin-left: 35px;
+}
+
+.userGroup {
+  /*background-color: #6f42c1;*/
+  flex-wrap: wrap;
+  margin-left: 35px;
+}
+
+div > a {
+  text-decoration: none;
+}
+
+
+#main2 {
+  padding-left: 0px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.littleIcon2 {
+  display: block;
+  margin-top: 5px;
+}
+
+.idol2 {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: inline-block;
+  border-width: 3px;
+  color: #905055;
+  border-style: solid;
+  border-radius: 10px;
+  background-image: url("https://img.freepik.com/premium-photo/simple-white-background-with-smooth-lines-in-light-colors_476363-5220.jpg");
+}
+
+.idol2:link{
+  color: blueviolet;
+}
+
+
+.idol2:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+#icon2 {
+  width: 30px;
+  height: 35px;
+  border-radius: 30px;
+}
+
+#playA2 {
+  /*background-/color: #0f5132;*/
+  text-decoration: none;
+  color: black;
+}
+
+#user2 {
+  /*background-color: #0a53be;*/
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  margin-left: 35px;
+}
+
+.userGroup2 {
+  /*background-color: #6f42c1;*/
+  flex-wrap: wrap;
+  margin-left: 35px;
+}
+
+/*자손 선택자*/
+a span{
+  color: blueviolet;
+}
+
+/* 자식 선택자 */
+div > a {
+}
+
+.idols2 {
+  display: flex;
+}
+

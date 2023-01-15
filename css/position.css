@@ -1,0 +1,56 @@
+.box-parent {
+  width: 300px;
+  height: 200px;
+  background-color: #0b5ed7;
+  position: relative;
+}
+
+.box-parent > .box-01 {
+  background-color: orange;
+  position: relative;
+  width: 120px;
+  height: 80px;
+  z-index: 2;
+}
+
+.box-parent > .box-02 {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  background-color: yellow;
+  width: 180px;
+  height: 100px;
+}
+
+.box-parent > .box-03 {
+  position: relative;
+  background-color: greenyellow;
+  width: 90px;
+  height: 150px;
+}
+
+.logo {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-image: url("https://www.hollys.co.kr/websrc/images/layout/logo_210302.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: 2px solid red;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+}
+
+.card-ad {
+  background-image: url("https://image.istarbucks.co.kr/upload/banner/floatingbnr/RHDZWh_20230103083817498.png");
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 20px;
+}
+
+.position-test {
+  position: fixed;
+}

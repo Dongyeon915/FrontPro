@@ -1,0 +1,110 @@
+.youtube-content {
+  /*background-color: black;*/
+}
+
+.youtube-content > .cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.youtube-content > .cards > .card-item {
+  width: 270px;
+  border-radius: 10px;
+  background-color: black;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.youtube-content > .cards > .card-item .card-image {
+  position: relative;
+  background-image: url("../images/main.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+}
+
+.card-item:hover .time {
+  visibility: hidden;
+}
+
+.card-item:hover .message {
+  visibility: visible;
+}
+
+.card-item .time {
+  visibility: visible;
+}
+
+.card-item .message {
+  visibility: hidden;
+}
+
+
+
+.card-item:hover {
+  transform: scale(1.1);
+  transition-duration: 1.2s;
+}
+
+
+.card-image p {
+  margin: 0px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+}
+
+.card-content > .content-info {
+  margin-top: 10px;
+  margin-left: 3px;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card-content > .content-info > .content-info.icon {
+  background-image: url("../images/icon.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 18px;
+  width: 36px;
+  height: 36px;
+  background-color: red;
+  margin-right: 10px;
+}
+
+.card-content > .content-info > .content-info.title {
+  font-size: 13px;
+  width: 220px;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 라인수 */
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  line-height: 1.2em;
+  height: 2.4em;;
+}
+
+.user-info {
+  color: darkgrey;
+  font-size: 12px;
+  margin-left: 55px;
+}
+
+.user-info > p {
+  margin-top: 5px;
+  padding-bottom: 10px;
+}
+
+.user-info > p > span:before {
+  content: "•";
+}
