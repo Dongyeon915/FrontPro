@@ -1,0 +1,36 @@
+.position-box1{
+  width: 200px;
+  height: 200px;
+  background-color: #6610f2;
+  /*요소를 자신 기준으로 설정 후 위치를 배치*/
+  position: relative;
+  z-index: 40;
+}
+.position-box2{
+  /*z-index 숫자가 높을수록 위로 요소를 쌓는다*/
+  z-index: 30;
+  bottom: 200px;
+  width: 200px;
+  height: 200px;
+  background-color: #6ea8fe;
+  /*요소를 자신 기준으로 설정 후 위치를 배치*/
+  position: relative;
+}
+.position-box3{
+  width: 100px;
+  height: 200px;
+  background-color: #6f42c1;
+  /*요소를 부모 div가 없으니 뷰포트 기준으로 설정 후 위치를 배치*/
+  position: absolute;
+  left: 200px;
+}
+.position-box4{
+  width: 200px;
+  height: 200px;
+  margin-left: 1100px;
+  background-color: #0f5132;
+  background-image: url("https://cdn.imweb.me/thumbnail/20200415/6b6e035658bac.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: fixed;
+}
