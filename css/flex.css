@@ -1,0 +1,21 @@
+.container{
+  background-color: #6610f2;
+  /*상위 태그에 flex속성을 먼저 부여해야 한다.*/
+  display: flex;
+  /*반대 끝점 으로 정렬*/
+  /*flex-direction: row-reverse;*/
+  /*컬럼의 방향으로 반대 정렬 끝점에 붙는다*/
+  /*flex-direction: column-reverse;*/
+  /*스크롤 을 줄일시 여러 줄로 묶어서 하단으로 요소가 내려온다*/
+  flex-wrap: wrap;
+  /*순서를 변경하지않고 주축에서 내부content를 끝점으로 이동*/
+  /*justify-content: flex-end;*/
+  /*중앙정렬*/
+  /*justify-content: center;*/
+}
+.container .box{
+  background-color: #0f5132;
+  border: white solid 2px;
+  width: 100px;
+  height: 100px;
+}
