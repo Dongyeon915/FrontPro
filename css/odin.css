@@ -57,7 +57,7 @@
   background-size: contain;
 }
 .header-box7 {
-  background-image: url("/Bootstrap/images/odin_game_start.png");
+  background-image: url("images/odin_game_start.png");
   width: 290px;
   height: 70px;
   /*background-color: #111111;*/
