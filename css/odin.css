@@ -1,0 +1,68 @@
+.header{
+  background-color: #111111;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: left;
+}
+.header div  span{
+  font-weight: bold;
+  color: white;
+}
+.header div{
+  text-align: center;
+  padding-top: 20px;
+}
+.header-box1{
+  width: 130px;
+  height: 50px;
+  background-color: #0f5110;
+  background-image: url("https://t1.kakaocdn.net/gamepub/ui-contents/service/odin/home/pc/v1/images/odin-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header-box2{
+  width: 100px;
+  height: 50px;
+  background-color: #510f0f;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header-box3{
+  width: 100px;
+  height: 50px;
+  background-color: #514e0f;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header-box4{
+  width: 100px;
+  height: 50px;
+  background-color: #0f5110;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header-box5{
+  width: 100px;
+  height: 50px;
+  background-color: #51280f;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header-box6{
+  width: 100px;
+  height: 50px;
+  background-color: #510f32;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header-box7 {
+  background-image: url("/Bootstrap/images/odin_game_start.png");
+  width: 290px;
+  height: 70px;
+  /*background-color: #111111;*/
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 450px;
+}
+
