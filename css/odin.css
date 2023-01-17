@@ -58,7 +58,7 @@
 }
 .header-box7 {
   /*git올리기전 Boot제거 확인*/
-  background-image: url("/images/odin_game_start.png");
+  background-image: url("/Bootstrap/images/odin_game_start.png");
   width: 290px;
   height: 70px;
   /*background-color: #111111;*/
