@@ -15,7 +15,7 @@ body {
 }
 
 .user-group {
- /* background-color: #0a58ca; */
+  /* background-color: #0a58ca; */
   width: auto;
   height: 250px;
   display: flex;
@@ -36,7 +36,7 @@ body {
   margin-top: 40px;
 }
 
-.user-group h4{
+.user-group h4 {
   font-size: 18px;
   text-align: center;
   padding-left: 20px;
@@ -44,19 +44,28 @@ body {
   color: #5c636a;
 }
 
-.profile{
+.profile {
   height: 20px;
   color: #5c636a;
-  border: white 1px solid;
-  display: inline-block;
-  padding: 10px;
-  margin-left: 600px;
+  border: 1px solid #5c636a;
+  width: 120px;
+  margin: auto;
+  text-align: center;
+  padding: 10px 0;
 }
 
-a{
+.profile:hover {
+  border: 1px solid white;
+}
+
+a {
   text-decoration-line: none;
   color: #5c636a;
   font-size: 16px;
   font-weight: bolder;
   padding: 0px 10px;
+}
+
+.profile:hover > a {
+  color: white;
 }
