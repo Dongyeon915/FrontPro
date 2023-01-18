@@ -2,13 +2,40 @@ body{
   margin: 0;
 }
 .title{
-  position: relative;
-  width: 800px;
+  width: 100%;
   height: 200px;
   background-color: #bcd294;
-  display: flex;
-  margin-left: 23%;
   padding-top: 30px;
+}
+.title .header-line{
+  display: flex;
+  justify-content: center;
+}
+.title .header-line > .title-name{
+  background-color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-right: 20px;
+}
+.title .header-line > .message{
+  background-color: #ededed;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 5px;
+}
+.title .header-line > .follow{
+  background-color: #0094f4;
+  color: white;
+  margin-right: 10px;
+  font-size: 13px;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+.title .header-line > .bottom-image{
+  background-color: #0094f4;
+  padding: 5px 8px;
+  border-radius: 10px;
 }
 /* 예비 보존 */
 /*.title .title-image{*/
