@@ -6,11 +6,19 @@ body{
   height: 200px;
   background-color: #bcd294;
   padding-top: 30px;
+  padding-bottom: 100px;
 }
 .title .header-line{
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
+.title .header-line2{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
 .title .header-line > .title-name{
   background-color: white;
   font-size: 20px;
@@ -23,6 +31,7 @@ body{
   border-radius: 10px;
   font-size: 13px;
   padding: 5px;
+  margin-left: 10px;
 }
 .title .header-line > .follow{
   background-color: #0094f4;
@@ -36,6 +45,35 @@ body{
   background-color: #0094f4;
   padding: 5px 8px;
   border-radius: 10px;
+}
+.title .header-line2 > .content{
+  font-size: 13px;
+  margin-right: 40px;
+  background-color: #6610f2;
+}
+.title .header-line2 > .follower-count{
+  font-size: 13px;
+  margin-right: 20px;
+  background-color: #0f5132;
+}
+.title .header-line2 > .follow-count{
+  font-size: 13px;
+  margin-right: 80px;
+  background-color: #3aca0a;
+}
+.title .info{
+  background-color: #3dd5f3;
+  display: flex;
+  justify-content: center;
+  margin-right: 130px;
+  width: 350px;
+  padding: 5px;
+  margin-left: 31%;
+}
+.title .info > ul li{
+  font-size: 15px;
+  list-style: none;
+
 }
 /* 예비 보존 */
 /*.title .title-image{*/
