@@ -15,8 +15,8 @@ body {
   height: 54px;
   background-image: url("https://t1.kakaocdn.net/gamepub/ui-contents/service/odin/home/pc/v1/images/odin-logo.png");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  /*background-size: contain;*/
+  /*background-position: center;*/
   position: absolute;
   top: 0;
   bottom: 0;
@@ -35,14 +35,14 @@ body {
 .header .menu ul {
   display: flex;
   list-style: none;
-  margin: 0;
+  /*margin: 0;*/
 }
 
 .header .menu ul li {
   margin-right: 50px;
   width: 80px;
   text-align: center;
-  flex-shrink: 0;
+  /*flex-shrink: 0;*/
 }
 
 .header .menu ul li:hover {
