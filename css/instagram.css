@@ -7,7 +7,7 @@ body {
   height: 250px;
   background-color: #bcd294;
   padding-top: 30px;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
   position: relative;
 }
 
@@ -108,6 +108,7 @@ body {
 
 .title .album-list > div {
   margin-left: 50px;
+  padding-top: 8px;
 }
 
 .title .album-list > .album1 {
@@ -200,6 +201,26 @@ body {
   word-wrap: break-word;
   line-height: 1.2em;
   height: 1.3em;
+}
+
+.menu-bar {
+  width: 50%;
+  margin: 0 auto;
+  height: 60px;
+  background-color: #3dd5f3;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #5c636a;
+}
+
+.menu-bar > div {
+  width: 100px;
+  height: auto;
+  background-color: #6610f2;
+  text-align: center;
+  margin: 0 30px;
+  padding-top: 20px;
+  font-size: 13px;
 }
 
 .image-group1 {
