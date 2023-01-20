@@ -71,16 +71,16 @@ body {
   visibility: hidden;
 }
 
-.header >.menu >.main-menu > .item:hover > .item__name {
+.header > .menu > .main-menu > .item:hover > .item__name {
   height: 76px;
   border-bottom: 1px solid #bd554d;
 }
 
-.header >.menu >.main-menu > .item:hover > .item__list {
+.header > .menu > .main-menu > .item:hover > .item__list {
   visibility: visible;
 }
 
-.header >.menu >.main-menu > .item:hover {
+.header > .menu > .main-menu > .item:hover {
 
 }
 

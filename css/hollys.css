@@ -1,0 +1,139 @@
+body {
+  margin: 0 auto;
+}
+
+.header {
+  height: 148px;
+  min-width: 940px;
+  background-color: #3dd5f3;
+  border-bottom: #b4121b solid;
+  position: relative;
+}
+
+.header > .header-line > .header1 {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  background-color: #3aca0a;
+  display: flex;
+}
+
+.header .header-line > .header1 > .header-sub {
+  display: flex;
+}
+
+.header .header-line > .header1 > .header-sub > div {
+  background-color: #6610f2;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 99px;
+  height: 76px;
+}
+
+.header .header-line > .header1 > .header-sub .header-sub1 {
+  background-image: url("https://www.hollys.co.kr/websrc/images/layout/gnb_smenu01.png");
+}
+
+.header .header-line > .header1 > .header-sub .header-sub2 {
+  background-image: url("https://www.hollys.co.kr/websrc/images/layout/gnb_smenu04.gif");
+}
+
+.header .header-line > .header1 > .main-logo {
+  background-color: #0f5132;
+  width: 66px;
+  height: 55px;
+  background-image: url("https://www.hollys.co.kr/websrc/images/layout/logo_210302.gif");
+  margin: 20px auto;
+}
+
+.header .header-line > .header1 > .header-ul > ul {
+  display: flex;
+}
+
+.header .header-line > .header1 > .header-ul > ul li {
+  list-style: none;
+  font-size: 5px;
+  font-weight: bold;
+  margin: 0 5px;
+  color: #6e6e6e;
+}
+
+.header .header-line > .header2 {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  background-color: #3aca0a;
+}
+
+.header .header-line > .header2 > .category > ul {
+  display: flex;
+}
+
+.header .header-line > .header2 > .category > ul > li {
+  list-style: none;
+  margin: 0 auto;
+  font-weight: bold;
+  color: #303030;
+}
+
+.header > .header-line > .header1 .clone-image {
+  width: 89px;
+  height: 89px;
+  background-image: url("https://www.hollys.co.kr/websrc/images/main/floating.png?d=210930");
+  position: absolute;
+  margin-left: 1110px;
+  margin-top: 10px;
+}
+
+/*inner 작업*/
+.inner {
+  margin: 0 auto;
+  width: 80%;
+  height: 1094px;
+  background-color: #fbcbff;
+  display: flex;
+}
+
+.inner > .inner-menu {
+  width: 190px;
+  background-color: #6610f2;
+}
+
+.inner > .inner-menu > .product-list > ul {
+  list-style: none;
+  font-size: 23px;
+  margin-bottom: 40px;
+  padding-left: 0;
+  font-weight: bolder;
+  color: #626262;
+}
+
+.inner > .inner-menu > .product-list > ul > li:nth-child(1) {
+  color: #b9000c;
+}
+
+.inner > .inner-menu > .member-img {
+  width: 87px;
+  height: 16px;
+  background-image: url("https://www.hollys.co.kr/websrc/images/layout/lnb/img_bannerTit01.gif");
+}
+
+.inner > .inner-menu > .member-info {
+  width: 170px;
+  height: 30px;
+  margin-bottom: 40px;
+  background-image: url("https://www.hollys.co.kr/websrc/images/layout/lnb/img_crown_membership1.gif");
+}
+
+.inner .inner-menu > .membership-img {
+  width: 190px;
+  height: 90px;
+  background-image: url("https://www.hollys.co.kr/websrc/images/layout/lnb/bg_banner_crown1.gif");
+}
+
+/*inner내부에 container 사이즈를 추가*/
+.inner > .container {
+  width: 100%;
+  height: auto;
+  background-color: #5c636a;
+}
