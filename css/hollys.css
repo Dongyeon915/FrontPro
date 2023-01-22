@@ -199,3 +199,23 @@ body {
   color: #303030;
   margin: 20px 0 30px;
 }
+.inner > .container > .menu-section2{
+  width: 680px;
+  height: 400px;
+  background-color: #6edff6;
+}
+.inner > .container > .menu-section2 > .info-table{
+  padding: 20px 20px;
+  text-align: center;
+  border: 1px solid black;
+  display: table-cell;
+}
+.inner > .container > .menu-section2 > .info-table > td{
+  margin-top: 30px;
+}
+.inner > .container > .menu-section2 > .allergy_box p{
+  font-size: 12px;
+  line-height: 19px;
+  color: #6f6f6f;
+}
+}
