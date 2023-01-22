@@ -137,7 +137,8 @@ body {
   height: auto;
   background-color: #5c636a;
 }
-.inner > .container > .location-bar{
+
+.inner > .container > .location-bar {
   width: 700px;
   height: 19px;
   background-color: #3aca0a;
@@ -145,77 +146,130 @@ body {
   font-size: 12px;
   color: #6f6f6f;
 }
-.inner > .container > .menu-name{
+
+.inner > .container > .menu-name {
   margin: 20px 0 34px 0;
   font-weight: normal;
   font-size: 30px;
   line-height: 19px;
   color: #6f6f6f;
 }
-.inner > .container > .menu-section{
+
+.inner > .container > .menu-section {
   display: flex;
 }
-.inner > .container > .menu-section > .menu-image{
+
+.inner > .container > .menu-section > .menu-image {
   width: 400px;
   height: 340px;
   background-color: #510f0f;
   background-image: url("https://admin.hollys.co.kr/upload/menu/etc/menuEtc_202211030915138420.png");
 }
-.inner > .container > .menu-section > .menu-info{
+
+.inner > .container > .menu-section > .menu-info {
   width: 280px;
   height: 340px;
   background-color: #514e0f;
 }
-.inner > .container > .menu-section > .menu-info > .sns{
+
+.inner > .container > .menu-section > .menu-info > .sns {
   display: flex;
 }
-.inner > .container > .menu-section > .menu-info > .sns > .facebook{
+
+.inner > .container > .menu-section > .menu-info > .sns > .facebook {
   width: 23px;
   height: 22px;
   background-image: url("https://www.hollys.co.kr/websrc/images/common/ico_linked04.gif");
 }
-.inner > .container > .menu-section > .menu-info > .sns > .twitter{
+
+.inner > .container > .menu-section > .menu-info > .sns > .twitter {
   width: 22px;
   height: 22px;
   background-image: url("https://www.hollys.co.kr/websrc/images/common/ico_linked05.gif");
 }
-.inner > .container > .menu-section > .menu-info > .sns > .seasonal-menu{
+
+.inner > .container > .menu-section > .menu-info > .sns > .seasonal-menu {
   width: 123px;
   height: 21px;
   background-image: url("https://www.hollys.co.kr/websrc/images/common/icon_seasolan_menu.gif");
 }
-.inner > .container > .menu-section > .menu-info > .menu{
+
+.inner > .container > .menu-section > .menu-info > .menu {
   flex-direction: column;
 }
-.inner > .container > .menu-section > .menu-info > .menu > .product-name{
+
+.inner > .container > .menu-section > .menu-info > .menu > .product-name {
   font-size: 32px;
   margin-bottom: 5px;
   display: block;
-  font-family: ngB;
   line-height: 32px;
 }
-.inner > .container > .menu-section > .menu-info > .product-info{
+
+.inner > .container > .menu-section > .menu-info > .product-info {
   font-size: 14px;
   color: #303030;
   margin: 20px 0 30px;
 }
-.inner > .container > .menu-section2{
+
+.inner > .container > .menu-section2 {
   width: 680px;
   height: 400px;
   background-color: #6edff6;
 }
-.inner > .container > .menu-section2 > .info-table{
+
+.inner > .container > .menu-section2 > .info-table {
   padding: 20px 20px;
   text-align: center;
   border: 1px solid black;
   display: table-cell;
 }
-.inner > .container > .menu-section2 > .info-table > td{
+
+.inner > .container > .menu-section2 > .info-table > td {
   margin-top: 30px;
 }
-.inner > .container > .menu-section2 > .allergy_box p{
+
+.inner > .container > .menu-section2 > .allergy_box p {
   font-size: 12px;
   line-height: 19px;
   color: #6f6f6f;
 }
+.inner > .container > .menu-section2 > .menu-small-list > .list{
+  display: flex;
+  padding-left: 0px;
+}
+.inner > .container > .menu-section2 > .menu-small-list > .list > li{
+  list-style: none;
+  width: 98px;
+  height: 82px;
+  background-color: #510f0f;
+  margin-left: 4px;
+  background-repeat: no-repeat;
+}
+.inner > .container > .menu-section2 > .menu-small-list > .list > .small-menu1{
+  background-image: url("https://admin.hollys.co.kr/upload/menu/etc/menuEtc_202211030915138420.png");
+  background-size: contain;
+}
+.inner > .container > .menu-section2 > .menu-small-list > .list > .small-menu2{
+  background-image: url("https://admin.hollys.co.kr/upload/menu/etc/menuEtc_202210310249534340.png");
+  background-size: contain;
+}
+.inner > .container > .menu-section2 > .menu-small-list > .list > .small-menu3{
+  background-image: url("https://admin.hollys.co.kr/upload/menu/etc/menuEtc_202205100952274340.png");
+  background-size: contain;
+}
+.inner > .container > .menu-section2 > .menu-small-list > .list > .small-menu4{
+  background-image: url("https://admin.hollys.co.kr/upload/menu/etc/menuEtc_202210310248502260.png");
+  background-size: contain;
+}
+.inner > .container > .menu-section2 > .menu-small-list > .list > .small-menu5{
+  background-image: url("https://admin.hollys.co.kr/upload/menu/etc/menuEtc_202205100954143020.png");
+  background-size: contain;
+}
+.inner > .container > .menu-section2 > .menu-small-list > .list > .small-menu6{
+  background-image: url("https://admin.hollys.co.kr/upload/menu/etc/menuEtc_202210110501025020.png");
+  background-size: contain;
+}
+.inner > .container > .menu-section2 > .menu-small-list > .list > .small-menu7{
+  background-image: url("https://admin.hollys.co.kr/upload/menu/etc/menuEtc_202209050523340280.png");
+  background-size: contain;
 }
