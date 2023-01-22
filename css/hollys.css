@@ -237,6 +237,7 @@ body {
 .inner > .container > .menu-section2 > .menu-small-list > .list {
   display: flex;
   padding-left: 0px;
+  margin-bottom: 0px;
 }
 
 .inner > .container > .menu-section2 > .menu-small-list > .list > li {
@@ -275,4 +276,20 @@ body {
 
 .inner > .container > .menu-section2 > .menu-small-list > .list > .small-menu7 {
   background-image: url("https://admin.hollys.co.kr/upload/menu/etc/menuEtc_202209050523340280.png");
+}
+
+.inner > .container > .menu-section2 > .menu-small-list-info {
+  display: flex;
+}
+
+.inner > .container > .menu-section2 > .menu-small-list-info > span {
+  width: 686px;
+  height: 35px;
+  margin-left: 4px;
+  text-align: center;
+  background-color: #6610f2;
+  color: #6f6f6f;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 19px;
 }
